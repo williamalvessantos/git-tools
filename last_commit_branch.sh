@@ -1,5 +1,15 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
+#
+# PROPOSAL: ----------------------------------------------------------------------------------------
+# Identify from last commit, print branch source
+# 
+# GitHub Tested    - [ok]
+# GitLab Tested    - [no]
+# BitBucket Tested - [no]
+# 
+# Date: 2019-12-05
+# Maintainer: William Alves <williamalvessantos@gmail.com>
+#
 # -------------------------------------------------------------------------------------------------
 # Functions
 # -------------------------------------------------------------------------------------------------
