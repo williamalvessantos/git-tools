@@ -27,7 +27,11 @@ function last_commit_info(){
 
 function last_commit_branch(){
    # PARM1 - No Parm
-   echo $last_commit_info | sed 's/(\|)/\n/g;s/,/\n/1' | grep "origin" | cut -f1 -d','
+	 echo $last_commit_info | \
+      tr '(' '\n' | \
+      tr ')' '\n' | \
+      tr ',' '\n' | \
+   grep "origin" | cut -f1 -d','
 }
 
 # -------------------------------------------------------------------------------------------------
